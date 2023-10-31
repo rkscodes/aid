@@ -1,13 +1,17 @@
 # Am I Diabetic 🩺
-Do I have diabetes ? A machine learning approach for patient classification.
+Am I diabetic? A machine learning approach for patient classification.
 
-[Punch in some values in here and know your chances](#am-i-diabetic-🩺)
+[Punch in some values here and know your status](#am-i-diabetic-🩺)
 > The model should be used as a tool to assist healthcare professionals and not replace their expertise.
 
 ## Dataset 
-[CDC Diabetes Health Indicators reference page](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
+[CDC Diabetes Health Indicators reference page](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+
+[Download Dataset](TBA)
 
 The Diabetes Health Indicators Dataset contains healthcare statistics and lifestyle survey information about people in general along with their diagnosis of diabetes. The 35 features consist of some demographics, lab test results, and answers to survey questions for each patient.
+
+
 
 ## Problem Statement
 The prevalence of diabetes is increasing globally, posing significant challenges to healthcare systems. Early detection and management of diabetes can lead to better health outcomes and reduce healthcare costs. However, identifying individuals at risk of developing diabetes or those who are pre-diabetic is a complex task due to the multifactorial nature of the disease.
@@ -18,3 +22,12 @@ By accomplishing this task, we aim to contribute to the early detection and mana
 
 ## Objective
 Develop a predictive model using the Diabetes Health Indicators Dataset to classify individuals into diabetic, pre-diabetic, and healthy categories.
+
+## Architecture
+<img src='assets/arch.png'>
+
+## Acknowledgements
+- TBD for Datset
+
+## License
+[MIT License](LICENSE)
