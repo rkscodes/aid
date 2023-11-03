@@ -19,7 +19,7 @@ The Diabetes Health Indicators Dataset provides a unique opportunity to explore 
 By accomplishing this task, we aim to contribute to the early detection and management of diabetes, ultimately improving patient outcomes and reducing the burden on healthcare systems.
 
 ## Objective
-Develop a predictive model using the Diabetes Health Indicators Dataset to classify individuals into diabetic, pre-diabetic, and healthy categories.
+Develop a predictive model using the Diabetes Health Indicators Dataset to classify individuals into diabetic/pre-diabetic, and healthy categories.
 
 ## Architecture
 <img src='assets/arch.png'>
