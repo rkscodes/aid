@@ -22,6 +22,10 @@ jupyterlab = "^4.0.7"
 dill = "^0.3.7"
 seaborn = "^0.13.0"
 
+
+[tool.poetry.group.deployment.dependencies]
+gunicorn = "^21.2.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
