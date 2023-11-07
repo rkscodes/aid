@@ -1,4 +1,9 @@
 # Am I Diabetic 🩺
+
+
+https://github.com/rkscodes/aid/assets/30290728/401317bc-5e5b-4421-bf93-900d26c99c57
+
+
 Am I diabetic? A machine learning approach for patient classification.
 
 > The model should be used as a tool to assist healthcare professionals and not replace their expertise.
