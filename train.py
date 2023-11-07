@@ -21,7 +21,7 @@ data_cache = Path('assets/data_cache')
 output_file = Path('assets/model.bin')
 
 
-
+print("Loading DataSet")
 if data_cache.is_file():
     with open(data_cache, 'rb') as f:
         df, y = pickle.load(f)
@@ -32,12 +32,6 @@ else:
     # data (as pandas dataframes) 
     df = cdc_diabetes_health_indicators.data.features 
     y = cdc_diabetes_health_indicators.data.targets 
-      
-    # metadata 
-    print(cdc_diabetes_health_indicators.metadata) 
-      
-    # variable information 
-    print(cdc_diabetes_health_indicators.variables)
 
     # cache it for further use
     with open(data_cache, 'wb') as f: 
