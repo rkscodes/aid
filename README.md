@@ -34,8 +34,8 @@ Develop a predictive model using the Diabetes Health Indicators Dataset to class
 ## Project Setup
 To get started with this project, clone the repository to your local machine:
 ```bash
-	git clone https://github.com/rkscodes/aid.git
-	cd aid
+git clone https://github.com/rkscodes/aid.git
+cd aid
 ```
 Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en/latest/index.html#quick-command-line-install) installed.
 1. Setup virtual env 
@@ -67,32 +67,32 @@ Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en
 	```
 4. You can now now send `POST` request
 	```bash
-		curl -X POST \
-		-H "Content-Type: application/json" \
-		-d '{
-			"highbp": "false",
-			"highchol": "true",
-			"cholcheck": "true",
-			"bmi": 25,
-			"smoker": "true",
-			"stroke": "false",
-			"heartdiseaseorattack": "false",
-			"physactivity": "true",
-			"fruits": "false",
-			"veggies": "true",
-			"hvyalcoholconsump": "false",
-			"anyhealthcare": "true",
-			"nodocbccost": "false",
-			"genhlth": "good",
-			"menthlth": 15,
-			"physhlth": 3,
-			"diffwalk": "true",
-			"sex": "false",
-			"age": "age_60_to_64",
-			"education": "college_4_to_more",
-			"income": "$50000_to_less_than_$75000"
-		}' \
-  		http://0.0.0.0:6969/predict
+	curl -X POST \
+	-H "Content-Type: application/json" \
+	-d '{
+		"highbp": "false",
+		"highchol": "true",
+		"cholcheck": "true",
+		"bmi": 25,
+		"smoker": "true",
+		"stroke": "false",
+		"heartdiseaseorattack": "false",
+		"physactivity": "true",
+		"fruits": "false",
+		"veggies": "true",
+		"hvyalcoholconsump": "false",
+		"anyhealthcare": "true",
+		"nodocbccost": "false",
+		"genhlth": "good",
+		"menthlth": 15,
+		"physhlth": 3,
+		"diffwalk": "true",
+		"sex": "false",
+		"age": "age_60_to_64",
+		"education": "college_4_to_more",
+		"income": "$50000_to_less_than_$75000"
+	}' \
+	http://0.0.0.0:6969/predict
     ```
 
 ## Cloud Deployment Instruction
@@ -113,32 +113,32 @@ Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en
 	```
 7. Hit the api with tool of your choice or using curl
 	```bash
-		curl -X POST \
-		-H "Content-Type: application/json" \
-		-d '{
-			"highbp": "false",
-			"highchol": "true",
-			"cholcheck": "true",
-			"bmi": 25,
-			"smoker": "true",
-			"stroke": "false",
-			"heartdiseaseorattack": "false",
-			"physactivity": "true",
-			"fruits": "false",
-			"veggies": "true",
-			"hvyalcoholconsump": "false",
-			"anyhealthcare": "true",
-			"nodocbccost": "false",
-			"genhlth": "good",
-			"menthlth": 15,
-			"physhlth": 3,
-			"diffwalk": "true",
-			"sex": "false",
-			"age": "age_60_to_64",
-			"education": "college_4_to_more",
-			"income": "$50000_to_less_than_$75000"
-		}' \
-  		https://predict-diabetes.fly.dev/predict
+	curl -X POST \
+	-H "Content-Type: application/json" \
+	-d '{
+		"highbp": "false",
+		"highchol": "true",
+		"cholcheck": "true",
+		"bmi": 25,
+		"smoker": "true",
+		"stroke": "false",
+		"heartdiseaseorattack": "false",
+		"physactivity": "true",
+		"fruits": "false",
+		"veggies": "true",
+		"hvyalcoholconsump": "false",
+		"anyhealthcare": "true",
+		"nodocbccost": "false",
+		"genhlth": "good",
+		"menthlth": 15,
+		"physhlth": 3,
+		"diffwalk": "true",
+		"sex": "false",
+		"age": "age_60_to_64",
+		"education": "college_4_to_more",
+		"income": "$50000_to_less_than_$75000"
+	}' \
+	https://predict-diabetes.fly.dev/predict
     ```
 ## Acknowledgements
 It it important to reiterate that I did not create this dataset, it is just a cleaned and consolidated dataset created from the BRFSS 2015 dataset already on Kaggle. That dataset can be found [here](https://www.kaggle.com/cdc/behavioral-risk-factor-surveillance-system) and the notebook used for the data cleaning can be found [here](https://www.kaggle.com/alexteboul/diabetes-health-indicators-dataset-notebook).
