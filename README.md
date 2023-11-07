@@ -4,11 +4,11 @@
 https://github.com/rkscodes/aid/assets/30290728/401317bc-5e5b-4421-bf93-900d26c99c57
 
 
-Am I diabetic? A machine learning approach for patient classification.
+API :: https://predict-diabetes.fly.dev/predict 
 
-> The model should be used as a tool to assist healthcare professionals and not replace their expertise.
+[See the CURL command to hit the API below](#cloud-deployment-instruction)
 
-## Dataset 
+## Dataset
 [CDC Diabetes Health Indicators reference page](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
 
 The Diabetes Health Indicators Dataset contains healthcare statistics and lifestyle survey information about people in general along with their diagnosis of diabetes. The 35 features consist of some demographics, lab test results, and answers to survey questions for each patient.
@@ -50,9 +50,9 @@ Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en
 	```bash
 	poetry install --no-root --without dev
 	```
-4. To start jupyter notebook
+4. Train Model
 	```bash
-	jupyter notebook
+	python train.py
 	```
 
 ## Docker Setup
