@@ -144,8 +144,8 @@ Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en
 ## Data column defination
 <details>
 
-| Variable Name | Role | Type | Demographic | Description | Missing Values |
-| --- | --- | --- | --- | --- | --- |
+| Variable Name | Role | Type  | Description | Missing Values |
+| --- | --- | --- | --- | --- |
 | ID | ID | Integer | Patient ID | no |
 | Diabetes_binary | Target | Binary | 0 = no diabetes 1 = prediabetes or diabetes | no |
 | HighBP | Feature | Binary | 0 = no high BP 1 = high BP | no |
@@ -165,10 +165,10 @@ Make sure you have [Conda/MiniConda](https://docs.conda.io/projects/miniconda/en
 | MentHlth | Feature | Integer | Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? scale 1-30 days | no |
 | PhysHlth | Feature | Integer | Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? scale 1-30 days | no |
 | DiffWalk | Feature | Binary | Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes | no |
-| Sex | Feature | Binary | Sex | 0 = female 1 = male | no |
-| Age | Feature | Integer | Age | 13-level age category (_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older | no |
-| Education | Feature | Integer | Education Level | Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = Grades 1 through 8 (Elementary) 3 = Grades 9 through 11 (Some high school) 4 = Grade 12 or GED (High school graduate) 5 = College 1 year to 3 years (Some college or technical school) 6 = College 4 years or more (College graduate) | no |
-| Income | Feature | Integer | Income | Income scale (INCOME2 see codebook) scale 1-8 1 = less than $10,000 5 = less than $35,000 8 = $75,000 or more | no |
+| Sex | Feature | Binary | 0 = female 1 = male | no |
+| Age | Feature | Integer  | 13-level age category (_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older | no |
+| Education | Feature | Integer | Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = Grades 1 through 8 (Elementary) 3 = Grades 9 through 11 (Some high school) 4 = Grade 12 or GED (High school graduate) 5 = College 1 year to 3 years (Some college or technical school) 6 = College 4 years or more (College graduate) | no |
+| Income | Feature | Integer | Income scale (INCOME2 see codebook) scale 1-8 1 = less than $10,000 5 = less than $35,000 8 = $75,000 or more | no |
 </details>
 
 ## Acknowledgements
